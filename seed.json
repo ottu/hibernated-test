@@ -1,0 +1,51 @@
+{
+    "Grade": [
+        { "_id": "C1", "w": "C", "n": "1" },
+        { "_id": "C2", "w": "C", "n": "2" },
+        { "_id": "C3", "w": "C", "n": "3" },
+        { "_id": "K1", "w": "K", "n": "1" },
+        { "_id": "K2", "w": "K", "n": "2" },
+        { "_id": "K3", "w": "K", "n": "3" }
+    ],
+    "Wepon": [
+        { "_id": "S", "kind": "Sword" },
+        { "_id": "L", "kind": "Lance" },
+        { "_id": "H", "kind": "Hammer" },
+        { "_id": "G", "kind": "Gun" },
+        { "_id": "W", "kind": "Wand" }
+    ],
+    "Category": [
+        { "_id": "Fenix", "kind": "星衣フェニックス" }
+    ],
+    "Character": [
+        { "_id": "Miki", "name": "星月みき", "grade": "@Grade:K1" },
+        { "_id": "Subaru", "name": "若葉昴", "grade": "@Grade:K1" },
+        { "_id": "Haruka", "name": "成海遥香", "grade": "@Grade:K1" },
+        { "_id": "Nozomi", "name": "天野望", "grade": "@Grade:K2" },
+        { "_id": "Yuri", "name": "火向井ゆり", "grade": "@Grade:K2" },
+        { "_id": "Kurumi", "name": "常磐くるみ", "grade": "@Grade:K2" },
+        { "_id": "Anko", "name": "粒咲あんこ", "grade": "@Grade:K3" },
+        { "_id": "Haruka", "name": "芹沢蓮華", "grade": "@Grade:K3" },
+        { "_id": "Asuha", "name": "楠明日葉", "grade": "@Grade:K3" },
+        { "_id": "Sakura", "name": "藤宮桜", "grade": "@Grade:C1" },
+        { "_id": "Hinata", "name": "南ひなた", "grade": "@Grade:C1" },
+        { "_id": "Sadone", "name": "サドネ", "grade": "@Grade:C1" },
+        { "_id": "Kaede", "name": "千導院楓", "grade": "@Grade:C2" },
+        { "_id": "Mumi", "name": "綿木ミシェル", "grade": "@Grade:C2" },
+        { "_id": "Kokomi", "name": "朝比奈心美", "grade": "@Grade:C3" },
+        { "_id": "URR", "name": "蓮見うらら", "grade": "@Grade:C3" }
+    ],
+    "Status": [
+        { "_id": "1_50", "hit": 3143, "skill": 812, "attack": 1925, "defense": 2083 },
+        { "_id": "1_70", "hit": 3536, "skill": 928, "attack": 2200, "defense": 2380 }
+    ],
+    "Card": [
+        {
+            "character": "@Character:Miki",
+            "wepon": "@Wepon:S",
+            "category": "@Category:Fenix",
+            "l50": "@Status:1_50",
+            "l70": "@Status:1_70"
+        }
+    ]
+}
