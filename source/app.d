@@ -1,45 +1,50 @@
 import std.stdio;
+import std.json;
+import std.file;
+import std.string;
+import std.conv;
+import std.algorithm;
+import std.range;
+import std.array;
 import hibernated.core;
 
-enum WEPON: string {
-    SWORD = "Sword",
-    LANCE = "Lance",
-    HAMMER = "Hammer",
-    GUN = "Gun",
-    WAND = "Wand"
+alias hibernated.annotations.Generator hGenerator;
+
+class Grade {
+    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
+        string id;
+    }
+
+    @NotNull {
+        char w;
+        ubyte n;
+    }
+
+    @NotNull @OneToMany {
+        LazyCollection!Character characters;
+    }
 }
 
 class Character {
-    @Id @UniqueKey @Generator(UUID_GENERATOR) {
+    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
         string id;
     }
 
     @NotNull {
         string name;
-        ubyte grade;
-        bool affection;
     }
 
-    @OneToMany {
+    @NotNull @ManyToOne {
+        Grade grade;
+    }
+
+    @NotNull @OneToMany {
         LazyCollection!Card cards;
     }
 }
 
-class Status {
-    @Id @UniqueKey @Generator(UUID_GENERATOR) {
-        string id;
-    }
-
-    @NotNull {
-        ushort hit;
-        ushort skill;
-        ushort attack;
-        ushort defense;
-    }
-}
-
 class Wepon {
-    @Id @UniqueKey @Generator(UUID_GENERATOR) {
+    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
         string id;
     }
 
@@ -52,14 +57,42 @@ class Wepon {
     }
 }
 
+class Category {
+     @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
+        string id;
+    }
+
+    @NotNull {
+        string kind;
+    }
+
+    @NotNull @OneToMany {
+        LazyCollection!Card cards;
+    }
+}
+
+class Status {
+    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
+        string id;
+    }
+
+    @NotNull {
+        ushort hit;
+        ushort skill;
+        ushort attack;
+        ushort defense;
+    }
+}
+
 class Card {
-    @Id @UniqueKey @Generator(UUID_GENERATOR) {
+    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
         string id;
     }
 
     @NotNull @ManyToOne {
         Character character;
         Wepon wepon;
+        Category category;
     }
 
     @NotNull @JoinColumn {
@@ -75,7 +108,7 @@ void main()
     auto ds = new ConnectionPoolDataSourceImpl(driver, "test.db", params);
     auto dialect = new SQLiteDialect();
 
-    auto schema = new SchemaInfoImpl!(Card, Character, Status, Wepon);
+    auto schema = new SchemaInfoImpl!(Card, Character, Status, Wepon, Grade, Category);
     auto factory = new SessionFactoryImpl(schema, dialect, ds);
     scope(exit) factory.close();
     auto db = factory.getDBMetaData();
@@ -88,42 +121,72 @@ void main()
     auto sess = factory.openSession();
     scope(exit) sess.close();
 
-    Character character = new Character();
-    character.name = "test子";
-    character.grade = 6;
-    character.affection = false;
+    auto json = parseJSON(readText("seed.json"));
 
-    Status status50 = new Status();
-    status50.hit = 100;
-    status50.skill = 100;
-    status50.attack = 100;
-    status50.defense = 100;
+    Grade[string] grades;
+    foreach( obj; json["Grade"].array ) {
+        auto grade = new Grade();
+        grade.w = obj["w"].str.to!char;
+        grade.n = obj["n"].integer.to!ubyte;
+        sess.save(grade);
+        grades[obj["_id"].str] = grade;
+    }
 
-    Status status70 = new Status();
-    status70.hit = 200;
-    status70.skill = 200;
-    status70.attack = 200;
-    status70.defense = 200;
+    Character[string] characters;
+    foreach( obj; json["Character"].array ) {
+        auto character = new Character();
+        character.name = obj["name"].str;
+        character.grade = grades[obj["grade"].str];
+        sess.save(character);
+        characters[obj["_id"].str] = character;
+    }
 
-    Wepon wepon = new Wepon();
-    wepon.kind = "Sword";
+    Wepon[string] wepons;
+    foreach( obj; json["Wepon"].array ) {
+        auto wepon = new Wepon();
+        wepon.kind = obj["kind"].str;
+        sess.save(wepon);
+        wepons[obj["_id"].str] = wepon;
+    }
 
-    Card card = new Card();
-    card.character = character;
-    card.wepon = wepon;
-    card.l50 = status50;
-    card.l70 = status70;
+    Category[string] categories;
+    foreach( obj; json["Category"].array ) {
+        auto category = new Category();
+        category.kind = obj["kind"].str;
+        sess.save(category);
+        categories[obj["_id"].str] = category;
+    }
 
-    sess.save(character);
-    sess.save(wepon);
-    sess.save(status50);
-    sess.save(status70);
-    sess.save(card);
+    Status[string] statuses;
+    foreach( obj; json["Status"].array ) {
+        auto status = new Status();
+        status.hit = obj["hit"].integer.to!ushort;
+        status.skill = obj["skill"].integer.to!ushort;
+        status.attack = obj["attack"].integer.to!ushort;
+        status.defense = obj["defense"].integer.to!ushort;
+        sess.save(status);
+        statuses[obj["_id"].str] = status;
+    }
+
+    Card[] cards;
+    foreach( obj; json["Card"].array ) {
+        auto card = new Card();
+        card.character = characters[obj["character"].str];
+        card.wepon = wepons[obj["wepon"].str];
+        card.category = categories[obj["category"].str];
+        card.l50 = statuses[obj["l50"].str];
+        card.l70 = statuses[obj["l70"].str];
+        sess.save(card);
+        cards ~= card;
+    }
 
     auto qr = sess.createQuery("FROM Card");
     writeln(qr.listRows());
     Card c = qr.uniqueResult!Card();
     writeln(c);
+    writeln(c.character.name);
+    writeln(c.wepon.kind);
+    writeln(c.category.kind);
 
 	writeln("Edit source/app.d to start your project.");
 }
