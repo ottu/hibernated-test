@@ -8,98 +8,7 @@ import std.range;
 import std.array;
 import hibernated.core;
 
-alias hibernated.annotations.Generator hGenerator;
-
-class Grade {
-    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
-        string id;
-    }
-
-    @NotNull {
-        char w;
-        ubyte n;
-    }
-
-    @NotNull @OneToMany {
-        LazyCollection!Character characters;
-    }
-}
-
-class Character {
-    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
-        string id;
-    }
-
-    @NotNull {
-        string name;
-    }
-
-    @NotNull @ManyToOne {
-        Grade grade;
-    }
-
-    @NotNull @OneToMany {
-        LazyCollection!Card cards;
-    }
-}
-
-class Wepon {
-    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
-        string id;
-    }
-
-    @NotNull {
-        string kind;
-    }
-
-    @NotNull @OneToMany {
-        LazyCollection!Card cards;
-    }
-}
-
-class Category {
-     @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
-        string id;
-    }
-
-    @NotNull {
-        string kind;
-    }
-
-    @NotNull @OneToMany {
-        LazyCollection!Card cards;
-    }
-}
-
-class Status {
-    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
-        string id;
-    }
-
-    @NotNull {
-        ushort hit;
-        ushort skill;
-        ushort attack;
-        ushort defense;
-    }
-}
-
-class Card {
-    @Id @UniqueKey @hGenerator(UUID_GENERATOR) {
-        string id;
-    }
-
-    @NotNull @ManyToOne {
-        Character character;
-        Wepon wepon;
-        Category category;
-    }
-
-    @NotNull @JoinColumn {
-        Status l50;
-        Status l70;
-    }
-}
+import models;
 
 void main()
 {
@@ -187,6 +96,4 @@ void main()
     writeln(c.character.name);
     writeln(c.wepon.kind);
     writeln(c.category.kind);
-
-	writeln("Edit source/app.d to start your project.");
 }
