@@ -39,13 +39,22 @@
         { "_id": "1_50", "hit": 3143, "skill": 812, "attack": 1925, "defense": 2083 },
         { "_id": "1_70", "hit": 3536, "skill": 928, "attack": 2200, "defense": 2380 }
     ],
+    "Skill": [
+        { "_id": "S1", "uses": 172, "combo": 10, "hit": [19], "effects": { "attribution_neglect": 0 } ] }
+    ],
+    "Friendly": [
+        { "_id": "F1", "target": { "type": "ALL" }, "effect": { "damage_up":{"time":0, "combo":0, "ratio":10}, "combo_up":{"ratio": 15} } },
+        { "_id": "F2", "target": { "type": "ALL" }, "effect": { "damage_up":{"ratio":15}, "combo_up":{"ratio": 20} } }
+    ],
     "Card": [
         {
             "character": "Miki",
             "wepon": "S",
             "category": "Phoenix",
             "l50": "1_50",
-            "l70": "1_70"
+            "l70": "1_70",
+            "friendly": {"before": "F1", "after": "F2"},
+            "skill": {"before": "S1", "after": "S1"}
         }
     ]
 }
