@@ -15,7 +15,7 @@
         { "_id": "Yuri", "name": "火向井ゆり", "grade": "K2" },
         { "_id": "Kurumi", "name": "常磐くるみ", "grade": "K2" },
         { "_id": "Anko", "name": "粒咲あんこ", "grade": "K3" },
-        { "_id": "Haruka", "name": "芹沢蓮華", "grade": "K3" },
+        { "_id": "Renge", "name": "芹沢蓮華", "grade": "K3" },
         { "_id": "Asuha", "name": "楠明日葉", "grade": "K3" },
         { "_id": "Sakura", "name": "藤宮桜", "grade": "C1" },
         { "_id": "Hinata", "name": "南ひなた", "grade": "C1" },
@@ -37,7 +37,15 @@
     ],
     "Status": [
         { "_id": "1_50", "hit": 3143, "skill": 812, "attack": 1925, "defense": 2083 },
-        { "_id": "1_70", "hit": 3536, "skill": 928, "attack": 2200, "defense": 2380 }
+        { "_id": "1_70", "hit": 3536, "skill": 928, "attack": 2200, "defense": 2380 },
+        { "_id": "2_50", "hit": 2797, "skill": 732, "attack": 1943, "defense": 2485 },
+        { "_id": "2_70", "hit": 3147, "skill": 836, "attack": 2221, "defense": 2840 },
+        { "_id": "3_50", "hit": 2938, "skill": 1249, "attack": 2160, "defense": 1289 },
+        { "_id": "3_70", "hit": 3305, "skill": 1427, "attack": 2496, "defense": 1472 },
+        { "_id": "4_50", "hit": 3771, "skill": 706, "attack": 2094, "defense": 1502 },
+        { "_id": "4_70", "hit": 4241, "skill": 806, "attack": 2392, "defense": 1716 },
+        { "_id": "5_50", "hit": 2887, "skill": 1231, "attack": 2121, "defense": 1395 },
+        { "_id": "5_70", "hit": 3248, "skill": 1407, "attack": 2424, "defense": 1598 }
     ],
     "Card": [
         {
@@ -46,6 +54,34 @@
             "category": "Phoenix",
             "l50": "1_50",
             "l70": "1_70"
+        },
+        {
+            "character": "Yuri",
+            "wepon": "S",
+            "category": "Phoenix",
+            "l50": "2_50",
+            "l70": "2_70"
+        },
+        {
+            "character": "Renge",
+            "wepon": "W",
+            "category": "Phoenix",
+            "l50": "3_50",
+            "l70": "3_70"
+        },
+        {
+            "character": "Kaede",
+            "wepon": "L",
+            "category": "Phoenix",
+            "l50": "4_50",
+            "l70": "4_70"
+        },
+        {
+            "character": "URR",
+            "wepon": "W",
+            "category": "Phoenix",
+            "l50": "5_50",
+            "l70": "5_70"
         }
     ]
 }
