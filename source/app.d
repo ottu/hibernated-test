@@ -90,10 +90,12 @@ void main()
     }
 
     auto qr = sess.createQuery("FROM Card");
-    writeln(qr.listRows());
-    Card c = qr.uniqueResult!Card();
-    writeln(c);
-    writeln(c.character.name);
-    writeln(c.wepon.kind);
-    writeln(c.category.kind);
+    Card[] cs = qr.list!Card;
+    foreach( c; cs ) {
+        writeln(c.character.name);
+        writeln(c.wepon.kind);
+        writeln(c.category.kind);
+    }
+
+	writeln("Edit source/app.d to start your project.");
 }
