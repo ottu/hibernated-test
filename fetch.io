@@ -75,19 +75,19 @@ cards foreach( i, v,
     s50id := "S" .. s size asString
     s push( Map clone do(
         atPut("_id", s50id )
-        atPut("hit", lv50 at(0) )
-        atPut("skill", lv50 at(1) )
-        atPut("attack", lv50 at(2) )
-        atPut("defense", lv50 at(3) )
+        atPut("hit", lv50 at(0) asNumber )
+        atPut("skill", lv50 at(1) asNumber )
+        atPut("attack", lv50 at(2) asNumber )
+        atPut("defense", lv50 at(3) asNumber )
     ) )
 
     s70id := "S" .. s size asString
     s push( Map clone do(
         atPut("_id", s70id )
-        atPut("hit", lv70 at(0) )
-        atPut("skill", lv70 at(1) )
-        atPut("attack", lv70 at(2) )
-        atPut("defense", lv70 at(3) )
+        atPut("hit", lv70 at(0) asNumber )
+        atPut("skill", lv70 at(1) asNumber )
+        atPut("attack", lv70 at(2) asNumber )
+        atPut("defense", lv70 at(3) asNumber )
     ) )
 
 //    name println
