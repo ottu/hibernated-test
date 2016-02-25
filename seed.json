@@ -33,55 +33,3798 @@
         { "_id": "W", "kind": "Wand" }
     ],
     "Category": [
-        { "_id": "Phoenix", "kind": "星衣フェニックス" }
+        {
+            "kind": "星衣フェニックス",
+            "_id": "C0"
+        },
+        {
+            "kind": "未来のパティシエ",
+            "_id": "C1"
+        },
+        {
+            "kind": "水着’15",
+            "_id": "C2"
+        },
+        {
+            "kind": "チャイナドレス",
+            "_id": "C3"
+        },
+        {
+            "kind": "星衣ヴァルキリー",
+            "_id": "C4"
+        },
+        {
+            "kind": "ハロウィン’15",
+            "_id": "C5"
+        },
+        {
+            "kind": "星守メイド",
+            "_id": "C6"
+        },
+        {
+            "kind": "クリスマス’15",
+            "_id": "C7"
+        },
+        {
+            "kind": "メリークリスマス！",
+            "_id": "C8"
+        },
+        {
+            "kind": "大晦日",
+            "_id": "C9"
+        },
+        {
+            "kind": "元旦",
+            "_id": "C10"
+        },
+        {
+            "kind": "バレンタイン’16",
+            "_id": "C11"
+        },
+        {
+            "kind": "星衣ユニコーン",
+            "_id": "C12"
+        },
+        {
+            "kind": "サッカー観戦",
+            "_id": "C13"
+        },
+        {
+            "kind": "Sirius",
+            "_id": "C14"
+        },
+        {
+            "kind": "星衣リヴァイアサン",
+            "_id": "C15"
+        },
+        {
+            "kind": "クラシックコンサート",
+            "_id": "C16"
+        },
+        {
+            "kind": "浴衣’15",
+            "_id": "C17"
+        },
+        {
+            "kind": "ウインドウショッピング",
+            "_id": "C18"
+        },
+        {
+            "kind": "チアガール",
+            "_id": "C19"
+        },
+        {
+            "kind": "星衣パイレーツ",
+            "_id": "C20"
+        },
+        {
+            "kind": "早朝ジョギング",
+            "_id": "C21"
+        },
+        {
+            "kind": "自宅菜園",
+            "_id": "C22"
+        },
+        {
+            "kind": "メイド",
+            "_id": "C23"
+        },
+        {
+            "kind": "星衣ギャラクシー",
+            "_id": "C24"
+        },
+        {
+            "kind": "ゲーセンクイーン",
+            "_id": "C25"
+        },
+        {
+            "kind": "アニマル",
+            "_id": "C26"
+        },
+        {
+            "kind": "Chuuuuu（ハート）Lip",
+            "_id": "C27"
+        },
+        {
+            "kind": "ザ・ムービー",
+            "_id": "C28"
+        },
+        {
+            "kind": "アイドルおっかけ",
+            "_id": "C29"
+        },
+        {
+            "kind": "楠家の庭園",
+            "_id": "C30"
+        },
+        {
+            "kind": "休日の軒先",
+            "_id": "C31"
+        },
+        {
+            "kind": "大好き遊園地",
+            "_id": "C32"
+        },
+        {
+            "kind": "ピアノコンクール",
+            "_id": "C33"
+        },
+        {
+            "kind": "屋内撮影会",
+            "_id": "C34"
+        },
+        {
+            "kind": "巫女のおしごと",
+            "_id": "C35"
+        },
+        {
+            "kind": "アイドルコスプレ（ハート）",
+            "_id": "C36"
+        },
+        {
+            "kind": "星衣グリム",
+            "_id": "C37"
+        },
+        {
+            "kind": "人形あそび",
+            "_id": "C38"
+        }
     ],
     "Status": [
-        { "_id": "1_50", "hit": 3143, "skill": 812, "attack": 1925, "defense": 2083 },
-        { "_id": "1_70", "hit": 3536, "skill": 928, "attack": 2200, "defense": 2380 },
-        { "_id": "2_50", "hit": 2797, "skill": 732, "attack": 1943, "defense": 2485 },
-        { "_id": "2_70", "hit": 3147, "skill": 836, "attack": 2221, "defense": 2840 },
-        { "_id": "3_50", "hit": 2938, "skill": 1249, "attack": 2160, "defense": 1289 },
-        { "_id": "3_70", "hit": 3305, "skill": 1427, "attack": 2496, "defense": 1472 },
-        { "_id": "4_50", "hit": 3771, "skill": 706, "attack": 2094, "defense": 1502 },
-        { "_id": "4_70", "hit": 4241, "skill": 806, "attack": 2392, "defense": 1716 },
-        { "_id": "5_50", "hit": 2887, "skill": 1231, "attack": 2121, "defense": 1395 },
-        { "_id": "5_70", "hit": 3248, "skill": 1407, "attack": 2424, "defense": 1598 }
+        {
+            "_id": "S0",
+            "hit": 3143,
+            "skill": 812,
+            "attack": 1925,
+            "defense": 2083
+        },
+        {
+            "_id": "S1",
+            "hit": 3536,
+            "skill": 928,
+            "attack": 2200,
+            "defense": 2380
+        },
+        {
+            "_id": "S2",
+            "hit": 3640,
+            "skill": 532,
+            "attack": 1877,
+            "defense": 1435
+        },
+        {
+            "_id": "S3",
+            "hit": 4095,
+            "skill": 608,
+            "attack": 2145,
+            "defense": 1640
+        },
+        {
+            "_id": "S4",
+            "hit": 3220,
+            "skill": 672,
+            "attack": 2095,
+            "defense": 1575
+        },
+        {
+            "_id": "S5",
+            "hit": 3623,
+            "skill": 768,
+            "attack": 2394,
+            "defense": 1800
+        },
+        {
+            "_id": "S6",
+            "hit": 2485,
+            "skill": 876,
+            "attack": 1900,
+            "defense": 2214
+        },
+        {
+            "_id": "S7",
+            "hit": 2795,
+            "skill": 1002,
+            "attack": 2171,
+            "defense": 2530
+        },
+        {
+            "_id": "S8",
+            "hit": 2373,
+            "skill": 1054,
+            "attack": 1990,
+            "defense": 2009
+        },
+        {
+            "_id": "S9",
+            "hit": 2670,
+            "skill": 1204,
+            "attack": 2274,
+            "defense": 2295
+        },
+        {
+            "_id": "S10",
+            "hit": 2800,
+            "skill": 1320,
+            "attack": 2102,
+            "defense": 1344
+        },
+        {
+            "_id": "S11",
+            "hit": 3141,
+            "skill": 1509,
+            "attack": 2402,
+            "defense": 1536
+        },
+        {
+            "_id": "S12",
+            "hit": 3714,
+            "skill": 875,
+            "attack": 2089,
+            "defense": 1393
+        },
+        {
+            "_id": "S13",
+            "hit": 4179,
+            "skill": 999,
+            "attack": 2386,
+            "defense": 1592
+        },
+        {
+            "_id": "S14",
+            "hit": 3467,
+            "skill": 830,
+            "attack": 1969,
+            "defense": 1900
+        },
+        {
+            "_id": "S15",
+            "hit": 3900,
+            "skill": 948,
+            "attack": 2250,
+            "defense": 2171
+        },
+        {
+            "_id": "S16",
+            "hit": 2312,
+            "skill": 1266,
+            "attack": 2097,
+            "defense": 2050
+        },
+        {
+            "_id": "S17",
+            "hit": 2601,
+            "skill": 1446,
+            "attack": 2396,
+            "defense": 2341
+        },
+        {
+            "_id": "S18",
+            "hit": 2848,
+            "skill": 1313,
+            "attack": 2145,
+            "defense": 1400
+        },
+        {
+            "_id": "S19",
+            "hit": 3195,
+            "skill": 1500,
+            "attack": 2450,
+            "defense": 1600
+        },
+        {
+            "_id": "S20",
+            "hit": 2697,
+            "skill": 865,
+            "attack": 2048,
+            "defense": 2625
+        },
+        {
+            "_id": "S21",
+            "hit": 3034,
+            "skill": 988,
+            "attack": 2340,
+            "defense": 3000
+        },
+        {
+            "_id": "S22",
+            "hit": 3111,
+            "skill": 866,
+            "attack": 2144,
+            "defense": 2202
+        },
+        {
+            "_id": "S23",
+            "hit": 3500,
+            "skill": 990,
+            "attack": 2450,
+            "defense": 2517
+        },
+        {
+            "_id": "S24",
+            "hit": 3490,
+            "skill": 647,
+            "attack": 2073,
+            "defense": 1877
+        },
+        {
+            "_id": "S25",
+            "hit": 3925,
+            "skill": 739,
+            "attack": 2369,
+            "defense": 2145
+        },
+        {
+            "_id": "S26",
+            "hit": 2400,
+            "skill": 909,
+            "attack": 1750,
+            "defense": 1400
+        },
+        {
+            "_id": "S27",
+            "hit": 2700,
+            "skill": 1040,
+            "attack": 2000,
+            "defense": 1600
+        },
+        {
+            "_id": "S28",
+            "hit": 3434,
+            "skill": 710,
+            "attack": 2089,
+            "defense": 1512
+        },
+        {
+            "_id": "S29",
+            "hit": 3864,
+            "skill": 811,
+            "attack": 2387,
+            "defense": 1728
+        },
+        {
+            "_id": "S30",
+            "hit": 2211,
+            "skill": 1204,
+            "attack": 2187,
+            "defense": 1343
+        },
+        {
+            "_id": "S31",
+            "hit": 2487,
+            "skill": 1376,
+            "attack": 2499,
+            "defense": 1535
+        },
+        {
+            "_id": "S32",
+            "hit": 2672,
+            "skill": 838,
+            "attack": 1990,
+            "defense": 2215
+        },
+        {
+            "_id": "S33",
+            "hit": 3006,
+            "skill": 958,
+            "attack": 2274,
+            "defense": 2532
+        },
+        {
+            "_id": "S34",
+            "hit": 3170,
+            "skill": 800,
+            "attack": 2100,
+            "defense": 1932
+        },
+        {
+            "_id": "S35",
+            "hit": 3566,
+            "skill": 914,
+            "attack": 2399,
+            "defense": 2208
+        },
+        {
+            "_id": "S36",
+            "hit": 2667,
+            "skill": 806,
+            "attack": 2090,
+            "defense": 2090
+        },
+        {
+            "_id": "S37",
+            "hit": 3000,
+            "skill": 921,
+            "attack": 2388,
+            "defense": 2387
+        },
+        {
+            "_id": "S38",
+            "hit": 2880,
+            "skill": 1203,
+            "attack": 2236,
+            "defense": 1311
+        },
+        {
+            "_id": "S39",
+            "hit": 3230,
+            "skill": 1375,
+            "attack": 2555,
+            "defense": 1498
+        },
+        {
+            "_id": "S40",
+            "hit": 2884,
+            "skill": 876,
+            "attack": 2153,
+            "defense": 2364
+        },
+        {
+            "_id": "S41",
+            "hit": 3200,
+            "skill": 1001,
+            "attack": 2460,
+            "defense": 2702
+        },
+        {
+            "_id": "S42",
+            "hit": 3466,
+            "skill": 1024,
+            "attack": 2143,
+            "defense": 1676
+        },
+        {
+            "_id": "S43",
+            "hit": 3900,
+            "skill": 1170,
+            "attack": 2448,
+            "defense": 1916
+        },
+        {
+            "_id": "S44",
+            "hit": 3740,
+            "skill": 733,
+            "attack": 2094,
+            "defense": 1503
+        },
+        {
+            "_id": "S45",
+            "hit": 4208,
+            "skill": 838,
+            "attack": 2392,
+            "defense": 1718
+        },
+        {
+            "_id": "S46",
+            "hit": 2914,
+            "skill": 588,
+            "attack": 1883,
+            "defense": 1705
+        },
+        {
+            "_id": "S47",
+            "hit": 3278,
+            "skill": 672,
+            "attack": 2153,
+            "defense": 1950
+        },
+        {
+            "_id": "S48",
+            "hit": 2534,
+            "skill": 875,
+            "attack": 1890,
+            "defense": 1899
+        },
+        {
+            "_id": "S49",
+            "hit": 2850,
+            "skill": 1000,
+            "attack": 2160,
+            "defense": 2170
+        },
+        {
+            "_id": "S50",
+            "hit": 2216,
+            "skill": 1200,
+            "attack": 1993,
+            "defense": 1673
+        },
+        {
+            "_id": "S51",
+            "hit": 2493,
+            "skill": 1370,
+            "attack": 2277,
+            "defense": 1911
+        },
+        {
+            "_id": "S52",
+            "hit": 3428,
+            "skill": 770,
+            "attack": 2028,
+            "defense": 1600
+        },
+        {
+            "_id": "S53",
+            "hit": 3858,
+            "skill": 881,
+            "attack": 2318,
+            "defense": 1830
+        },
+        {
+            "_id": "S54",
+            "hit": 2668,
+            "skill": 1312,
+            "attack": 2100,
+            "defense": 1329
+        },
+        {
+            "_id": "S55",
+            "hit": 3001,
+            "skill": 1500,
+            "attack": 2400,
+            "defense": 1519
+        },
+        {
+            "_id": "S56",
+            "hit": 2551,
+            "skill": 1017,
+            "attack": 2000,
+            "defense": 2009
+        },
+        {
+            "_id": "S57",
+            "hit": 2870,
+            "skill": 1161,
+            "attack": 2285,
+            "defense": 2295
+        },
+        {
+            "_id": "S58",
+            "hit": 2992,
+            "skill": 747,
+            "attack": 2080,
+            "defense": 2259
+        },
+        {
+            "_id": "S59",
+            "hit": 3366,
+            "skill": 854,
+            "attack": 2376,
+            "defense": 2582
+        },
+        {
+            "_id": "S60",
+            "hit": 3493,
+            "skill": 829,
+            "attack": 2143,
+            "defense": 1679
+        },
+        {
+            "_id": "S61",
+            "hit": 3931,
+            "skill": 948,
+            "attack": 2448,
+            "defense": 1920
+        },
+        {
+            "_id": "S62",
+            "hit": 2675,
+            "skill": 1455,
+            "attack": 2214,
+            "defense": 1357
+        },
+        {
+            "_id": "S63",
+            "hit": 3000,
+            "skill": 1664,
+            "attack": 2530,
+            "defense": 1551
+        },
+        {
+            "_id": "S64",
+            "hit": 2780,
+            "skill": 945,
+            "attack": 2013,
+            "defense": 2581
+        },
+        {
+            "_id": "S65",
+            "hit": 3127,
+            "skill": 1080,
+            "attack": 2300,
+            "defense": 2950
+        },
+        {
+            "_id": "S66",
+            "hit": 2904,
+            "skill": 835,
+            "attack": 1829,
+            "defense": 2088
+        },
+        {
+            "_id": "S67",
+            "hit": 3267,
+            "skill": 955,
+            "attack": 2090,
+            "defense": 2385
+        },
+        {
+            "_id": "S68",
+            "hit": 2400,
+            "skill": 770,
+            "attack": 1838,
+            "defense": 1662
+        },
+        {
+            "_id": "S69",
+            "hit": 2700,
+            "skill": 880,
+            "attack": 2100,
+            "defense": 1900
+        },
+        {
+            "_id": "S70",
+            "hit": 1938,
+            "skill": 1320,
+            "attack": 1719,
+            "defense": 1269
+        },
+        {
+            "_id": "S71",
+            "hit": 2180,
+            "skill": 1509,
+            "attack": 1966,
+            "defense": 1452
+        },
+        {
+            "_id": "S72",
+            "hit": 3301,
+            "skill": 645,
+            "attack": 2000,
+            "defense": 1621
+        },
+        {
+            "_id": "S73",
+            "hit": 3714,
+            "skill": 737,
+            "attack": 2285,
+            "defense": 1854
+        },
+        {
+            "_id": "S74",
+            "hit": 2619,
+            "skill": 880,
+            "attack": 1996,
+            "defense": 2381
+        },
+        {
+            "_id": "S75",
+            "hit": 2946,
+            "skill": 1006,
+            "attack": 2281,
+            "defense": 2722
+        },
+        {
+            "_id": "S76",
+            "hit": 4088,
+            "skill": 817,
+            "attack": 2100,
+            "defense": 1070
+        },
+        {
+            "_id": "S77",
+            "hit": 4600,
+            "skill": 933,
+            "attack": 2400,
+            "defense": 1223
+        },
+        {
+            "_id": "S78",
+            "hit": 2720,
+            "skill": 830,
+            "attack": 2080,
+            "defense": 2101
+        },
+        {
+            "_id": "S79",
+            "hit": 3060,
+            "skill": 947,
+            "attack": 2376,
+            "defense": 2400
+        },
+        {
+            "_id": "S80",
+            "hit": 2943,
+            "skill": 1385,
+            "attack": 2187,
+            "defense": 1269
+        },
+        {
+            "_id": "S81",
+            "hit": 3300,
+            "skill": 1583,
+            "attack": 2499,
+            "defense": 1450
+        },
+        {
+            "_id": "S82",
+            "hit": 2797,
+            "skill": 732,
+            "attack": 1943,
+            "defense": 2485
+        },
+        {
+            "_id": "S83",
+            "hit": 3147,
+            "skill": 836,
+            "attack": 2221,
+            "defense": 2840
+        },
+        {
+            "_id": "S84",
+            "hit": 2261,
+            "skill": 739,
+            "attack": 1688,
+            "defense": 2080
+        },
+        {
+            "_id": "S85",
+            "hit": 2626,
+            "skill": 841,
+            "attack": 1926,
+            "defense": 2405
+        },
+        {
+            "_id": "S86",
+            "hit": 3990,
+            "skill": 656,
+            "attack": 1915,
+            "defense": 1083
+        },
+        {
+            "_id": "S87",
+            "hit": 4492,
+            "skill": 743,
+            "attack": 2167,
+            "defense": 1245
+        },
+        {
+            "_id": "S88",
+            "hit": 1827,
+            "skill": 1162,
+            "attack": 2061,
+            "defense": 1379
+        },
+        {
+            "_id": "S89",
+            "hit": 2055,
+            "skill": 1327,
+            "attack": 2355,
+            "defense": 1576
+        },
+        {
+            "_id": "S90",
+            "hit": 3173,
+            "skill": 810,
+            "attack": 2080,
+            "defense": 1937
+        },
+        {
+            "_id": "S91",
+            "hit": 3570,
+            "skill": 926,
+            "attack": 2376,
+            "defense": 2214
+        },
+        {
+            "_id": "S92",
+            "hit": 2870,
+            "skill": 1456,
+            "attack": 2090,
+            "defense": 1226
+        },
+        {
+            "_id": "S93",
+            "hit": 3219,
+            "skill": 1664,
+            "attack": 2388,
+            "defense": 1401
+        },
+        {
+            "_id": "S94",
+            "hit": 2708,
+            "skill": 866,
+            "attack": 2099,
+            "defense": 2480
+        },
+        {
+            "_id": "S95",
+            "hit": 3046,
+            "skill": 991,
+            "attack": 2399,
+            "defense": 2834
+        },
+        {
+            "_id": "S96",
+            "hit": 2662,
+            "skill": 961,
+            "attack": 2074,
+            "defense": 2537
+        },
+        {
+            "_id": "S97",
+            "hit": 2994,
+            "skill": 1099,
+            "attack": 2370,
+            "defense": 2900
+        },
+        {
+            "_id": "S98",
+            "hit": 2907,
+            "skill": 964,
+            "attack": 2083,
+            "defense": 2013
+        },
+        {
+            "_id": "S99",
+            "hit": 3270,
+            "skill": 1100,
+            "attack": 2380,
+            "defense": 2300
+        },
+        {
+            "_id": "S100",
+            "hit": 3472,
+            "skill": 650,
+            "attack": 2022,
+            "defense": 1943
+        },
+        {
+            "_id": "S101",
+            "hit": 3905,
+            "skill": 742,
+            "attack": 2310,
+            "defense": 2220
+        },
+        {
+            "_id": "S102",
+            "hit": 2016,
+            "skill": 1017,
+            "attack": 1877,
+            "defense": 1166
+        },
+        {
+            "_id": "S103",
+            "hit": 2268,
+            "skill": 1163,
+            "attack": 2145,
+            "defense": 1333
+        },
+        {
+            "_id": "S104",
+            "hit": 2374,
+            "skill": 813,
+            "attack": 1823,
+            "defense": 1872
+        },
+        {
+            "_id": "S105",
+            "hit": 2757,
+            "skill": 925,
+            "attack": 2080,
+            "defense": 2165
+        },
+        {
+            "_id": "S106",
+            "hit": 3537,
+            "skill": 710,
+            "attack": 1943,
+            "defense": 1557
+        },
+        {
+            "_id": "S107",
+            "hit": 3980,
+            "skill": 811,
+            "attack": 2220,
+            "defense": 1780
+        },
+        {
+            "_id": "S108",
+            "hit": 3304,
+            "skill": 772,
+            "attack": 2100,
+            "defense": 1596
+        },
+        {
+            "_id": "S109",
+            "hit": 3717,
+            "skill": 882,
+            "attack": 2399,
+            "defense": 1824
+        },
+        {
+            "_id": "S110",
+            "hit": 2545,
+            "skill": 1044,
+            "attack": 1999,
+            "defense": 1989
+        },
+        {
+            "_id": "S111",
+            "hit": 2863,
+            "skill": 1192,
+            "attack": 2284,
+            "defense": 2272
+        },
+        {
+            "_id": "S112",
+            "hit": 2795,
+            "skill": 1443,
+            "attack": 2104,
+            "defense": 1298
+        },
+        {
+            "_id": "S113",
+            "hit": 3135,
+            "skill": 1650,
+            "attack": 2404,
+            "defense": 1484
+        },
+        {
+            "_id": "S114",
+            "hit": 2942,
+            "skill": 929,
+            "attack": 2100,
+            "defense": 2188
+        },
+        {
+            "_id": "S115",
+            "hit": 3309,
+            "skill": 1062,
+            "attack": 2400,
+            "defense": 2500
+        },
+        {
+            "_id": "S116",
+            "hit": 3554,
+            "skill": 874,
+            "attack": 2153,
+            "defense": 1585
+        },
+        {
+            "_id": "S117",
+            "hit": 4000,
+            "skill": 999,
+            "attack": 2460,
+            "defense": 1811
+        },
+        {
+            "_id": "S118",
+            "hit": 2988,
+            "skill": 1255,
+            "attack": 2197,
+            "defense": 1298
+        },
+        {
+            "_id": "S119",
+            "hit": 3351,
+            "skill": 1400,
+            "attack": 2510,
+            "defense": 1483
+        },
+        {
+            "_id": "S120",
+            "hit": 3510,
+            "skill": 963,
+            "attack": 2120,
+            "defense": 1633
+        },
+        {
+            "_id": "S121",
+            "hit": 3950,
+            "skill": 1100,
+            "attack": 2423,
+            "defense": 1867
+        },
+        {
+            "_id": "S122",
+            "hit": 2756,
+            "skill": 1050,
+            "attack": 2057,
+            "defense": 2101
+        },
+        {
+            "_id": "S123",
+            "hit": 3100,
+            "skill": 1199,
+            "attack": 2350,
+            "defense": 2400
+        },
+        {
+            "_id": "S124",
+            "hit": 2713,
+            "skill": 1052,
+            "attack": 2063,
+            "defense": 1824
+        },
+        {
+            "_id": "S125",
+            "hit": 3052,
+            "skill": 1201,
+            "attack": 2358,
+            "defense": 2086
+        },
+        {
+            "_id": "S126",
+            "hit": 3440,
+            "skill": 510,
+            "attack": 1754,
+            "defense": 1874
+        },
+        {
+            "_id": "S127",
+            "hit": 3850,
+            "skill": 583,
+            "attack": 2014,
+            "defense": 2142
+        },
+        {
+            "_id": "S128",
+            "hit": 3678,
+            "skill": 790,
+            "attack": 1940,
+            "defense": 1134
+        },
+        {
+            "_id": "S129",
+            "hit": 4139,
+            "skill": 898,
+            "attack": 2207,
+            "defense": 1299
+        },
+        {
+            "_id": "S130",
+            "hit": 2608,
+            "skill": 789,
+            "attack": 1892,
+            "defense": 1892
+        },
+        {
+            "_id": "S131",
+            "hit": 2933,
+            "skill": 903,
+            "attack": 2162,
+            "defense": 2162
+        },
+        {
+            "_id": "S132",
+            "hit": 3272,
+            "skill": 656,
+            "attack": 2000,
+            "defense": 1828
+        },
+        {
+            "_id": "S133",
+            "hit": 3681,
+            "skill": 750,
+            "attack": 2285,
+            "defense": 2089
+        },
+        {
+            "_id": "S134",
+            "hit": 2327,
+            "skill": 1068,
+            "attack": 1990,
+            "defense": 1843
+        },
+        {
+            "_id": "S135",
+            "hit": 2618,
+            "skill": 1220,
+            "attack": 2274,
+            "defense": 2107
+        },
+        {
+            "_id": "S136",
+            "hit": 2541,
+            "skill": 1315,
+            "attack": 2140,
+            "defense": 1411
+        },
+        {
+            "_id": "S137",
+            "hit": 2858,
+            "skill": 1504,
+            "attack": 2445,
+            "defense": 1613
+        },
+        {
+            "_id": "S138",
+            "hit": 2593,
+            "skill": 874,
+            "attack": 2030,
+            "defense": 2379
+        },
+        {
+            "_id": "S139",
+            "hit": 2916,
+            "skill": 1000,
+            "attack": 2319,
+            "defense": 2719
+        },
+        {
+            "_id": "S140",
+            "hit": 3705,
+            "skill": 823,
+            "attack": 2105,
+            "defense": 1436
+        },
+        {
+            "_id": "S141",
+            "hit": 4169,
+            "skill": 940,
+            "attack": 2406,
+            "defense": 1642
+        },
+        {
+            "_id": "S142",
+            "hit": 2551,
+            "skill": 862,
+            "attack": 2002,
+            "defense": 2537
+        },
+        {
+            "_id": "S143",
+            "hit": 2870,
+            "skill": 986,
+            "attack": 2288,
+            "defense": 2900
+        },
+        {
+            "_id": "S144",
+            "hit": 3245,
+            "skill": 786,
+            "attack": 2136,
+            "defense": 1995
+        },
+        {
+            "_id": "S145",
+            "hit": 3650,
+            "skill": 899,
+            "attack": 2440,
+            "defense": 2280
+        },
+        {
+            "_id": "S146",
+            "hit": 2664,
+            "skill": 1230,
+            "attack": 2057,
+            "defense": 2013
+        },
+        {
+            "_id": "S147",
+            "hit": 2997,
+            "skill": 1405,
+            "attack": 2350,
+            "defense": 2300
+        },
+        {
+            "_id": "S148",
+            "hit": 3715,
+            "skill": 963,
+            "attack": 2057,
+            "defense": 1577
+        },
+        {
+            "_id": "S149",
+            "hit": 4180,
+            "skill": 1100,
+            "attack": 2350,
+            "defense": 1804
+        },
+        {
+            "_id": "S150",
+            "hit": 2938,
+            "skill": 1249,
+            "attack": 2160,
+            "defense": 1289
+        },
+        {
+            "_id": "S151",
+            "hit": 3305,
+            "skill": 1427,
+            "attack": 2469,
+            "defense": 1472
+        },
+        {
+            "_id": "S152",
+            "hit": 3800,
+            "skill": 596,
+            "attack": 1824,
+            "defense": 1274
+        },
+        {
+            "_id": "S153",
+            "hit": 4278,
+            "skill": 675,
+            "attack": 2064,
+            "defense": 1465
+        },
+        {
+            "_id": "S154",
+            "hit": 2130,
+            "skill": 975,
+            "attack": 1865,
+            "defense": 1487
+        },
+        {
+            "_id": "S155",
+            "hit": 2490,
+            "skill": 1113,
+            "attack": 2120,
+            "defense": 1550
+        },
+        {
+            "_id": "S156",
+            "hit": 2538,
+            "skill": 808,
+            "attack": 1823,
+            "defense": 1786
+        },
+        {
+            "_id": "S157",
+            "hit": 2899,
+            "skill": 921,
+            "attack": 2080,
+            "defense": 2054
+        },
+        {
+            "_id": "S158",
+            "hit": 2010,
+            "skill": 1022,
+            "attack": 2001,
+            "defense": 1407
+        },
+        {
+            "_id": "S159",
+            "hit": 2261,
+            "skill": 1168,
+            "attack": 2287,
+            "defense": 1608
+        },
+        {
+            "_id": "S160",
+            "hit": 2460,
+            "skill": 841,
+            "attack": 1903,
+            "defense": 2336
+        },
+        {
+            "_id": "S161",
+            "hit": 2767,
+            "skill": 962,
+            "attack": 2175,
+            "defense": 2669
+        },
+        {
+            "_id": "S162",
+            "hit": 3198,
+            "skill": 772,
+            "attack": 1995,
+            "defense": 1883
+        },
+        {
+            "_id": "S163",
+            "hit": 3598,
+            "skill": 882,
+            "attack": 2279,
+            "defense": 2152
+        },
+        {
+            "_id": "S164",
+            "hit": 3441,
+            "skill": 849,
+            "attack": 2109,
+            "defense": 1586
+        },
+        {
+            "_id": "S165",
+            "hit": 3872,
+            "skill": 970,
+            "attack": 2409,
+            "defense": 1813
+        },
+        {
+            "_id": "S166",
+            "hit": 2809,
+            "skill": 1290,
+            "attack": 2100,
+            "defense": 1443
+        },
+        {
+            "_id": "S167",
+            "hit": 3151,
+            "skill": 1474,
+            "attack": 2400,
+            "defense": 1649
+        },
+        {
+            "_id": "S168",
+            "hit": 2781,
+            "skill": 1277,
+            "attack": 2187,
+            "defense": 1396
+        },
+        {
+            "_id": "S169",
+            "hit": 3119,
+            "skill": 1459,
+            "attack": 2499,
+            "defense": 1595
+        },
+        {
+            "_id": "S170",
+            "hit": 2963,
+            "skill": 884,
+            "attack": 2013,
+            "defense": 2179
+        },
+        {
+            "_id": "S171",
+            "hit": 3333,
+            "skill": 1011,
+            "attack": 2300,
+            "defense": 2490
+        },
+        {
+            "_id": "S172",
+            "hit": 3927,
+            "skill": 1025,
+            "attack": 2057,
+            "defense": 1224
+        },
+        {
+            "_id": "S173",
+            "hit": 4419,
+            "skill": 1170,
+            "attack": 2350,
+            "defense": 1400
+        },
+        {
+            "_id": "S174",
+            "hit": 2845,
+            "skill": 963,
+            "attack": 2085,
+            "defense": 1916
+        },
+        {
+            "_id": "S175",
+            "hit": 3200,
+            "skill": 1100,
+            "attack": 2382,
+            "defense": 2189
+        },
+        {
+            "_id": "S176",
+            "hit": 4133,
+            "skill": 819,
+            "attack": 2031,
+            "defense": 1336
+        },
+        {
+            "_id": "S177",
+            "hit": 4650,
+            "skill": 936,
+            "attack": 2320,
+            "defense": 1528
+        },
+        {
+            "_id": "S178",
+            "hit": 2651,
+            "skill": 1143,
+            "attack": 2061,
+            "defense": 2110
+        },
+        {
+            "_id": "S179",
+            "hit": 2982,
+            "skill": 1305,
+            "attack": 2355,
+            "defense": 2410
+        },
+        {
+            "_id": "S180",
+            "hit": 2937,
+            "skill": 693,
+            "attack": 1846,
+            "defense": 2485
+        },
+        {
+            "_id": "S181",
+            "hit": 3303,
+            "skill": 792,
+            "attack": 2109,
+            "defense": 2840
+        },
+        {
+            "_id": "S182",
+            "hit": 3600,
+            "skill": 580,
+            "attack": 1900,
+            "defense": 1400
+        },
+        {
+            "_id": "S183",
+            "hit": 4050,
+            "skill": 660,
+            "attack": 2150,
+            "defense": 1610
+        },
+        {
+            "_id": "S184",
+            "hit": 2007,
+            "skill": 1139,
+            "attack": 1827,
+            "defense": 1310
+        },
+        {
+            "_id": "S185",
+            "hit": 2146,
+            "skill": 1371,
+            "attack": 2090,
+            "defense": 1498
+        },
+        {
+            "_id": "S186",
+            "hit": 3136,
+            "skill": 819,
+            "attack": 1990,
+            "defense": 1621
+        },
+        {
+            "_id": "S187",
+            "hit": 3528,
+            "skill": 936,
+            "attack": 2274,
+            "defense": 1854
+        },
+        {
+            "_id": "S188",
+            "hit": 2734,
+            "skill": 946,
+            "attack": 1899,
+            "defense": 1899
+        },
+        {
+            "_id": "S189",
+            "hit": 3075,
+            "skill": 1082,
+            "attack": 2171,
+            "defense": 2171
+        },
+        {
+            "_id": "S190",
+            "hit": 2397,
+            "skill": 1058,
+            "attack": 2000,
+            "defense": 1974
+        },
+        {
+            "_id": "S191",
+            "hit": 2697,
+            "skill": 1207,
+            "attack": 2285,
+            "defense": 2255
+        },
+        {
+            "_id": "S192",
+            "hit": 3556,
+            "skill": 793,
+            "attack": 2111,
+            "defense": 1527
+        },
+        {
+            "_id": "S193",
+            "hit": 4002,
+            "skill": 906,
+            "attack": 2412,
+            "defense": 1746
+        },
+        {
+            "_id": "S194",
+            "hit": 3116,
+            "skill": 765,
+            "attack": 2100,
+            "defense": 2099
+        },
+        {
+            "_id": "S195",
+            "hit": 3506,
+            "skill": 874,
+            "attack": 2399,
+            "defense": 2399
+        },
+        {
+            "_id": "S196",
+            "hit": 2771,
+            "skill": 1285,
+            "attack": 2122,
+            "defense": 1368
+        },
+        {
+            "_id": "S197",
+            "hit": 3108,
+            "skill": 1664,
+            "attack": 2424,
+            "defense": 1563
+        },
+        {
+            "_id": "S198",
+            "hit": 2979,
+            "skill": 962,
+            "attack": 2109,
+            "defense": 2109
+        },
+        {
+            "_id": "S199",
+            "hit": 3350,
+            "skill": 1100,
+            "attack": 2410,
+            "defense": 2410
+        },
+        {
+            "_id": "S200",
+            "hit": 2825,
+            "skill": 1045,
+            "attack": 2101,
+            "defense": 1838
+        },
+        {
+            "_id": "S201",
+            "hit": 3179,
+            "skill": 1193,
+            "attack": 2400,
+            "defense": 2100
+        },
+        {
+            "_id": "S202",
+            "hit": 3207,
+            "skill": 1006,
+            "attack": 2057,
+            "defense": 2057
+        },
+        {
+            "_id": "S203",
+            "hit": 3607,
+            "skill": 1150,
+            "attack": 2350,
+            "defense": 2350
+        },
+        {
+            "_id": "S204",
+            "hit": 2845,
+            "skill": 1408,
+            "attack": 2205,
+            "defense": 1400
+        },
+        {
+            "_id": "S205",
+            "hit": 3191,
+            "skill": 1609,
+            "attack": 2520,
+            "defense": 1600
+        },
+        {
+            "_id": "S206",
+            "hit": 2738,
+            "skill": 952,
+            "attack": 1877,
+            "defense": 2088
+        },
+        {
+            "_id": "S207",
+            "hit": 3080,
+            "skill": 1087,
+            "attack": 2145,
+            "defense": 2385
+        },
+        {
+            "_id": "S208",
+            "hit": 2934,
+            "skill": 630,
+            "attack": 1662,
+            "defense": 1838
+        },
+        {
+            "_id": "S209",
+            "hit": 3300,
+            "skill": 720,
+            "attack": 1900,
+            "defense": 2100
+        },
+        {
+            "_id": "S210",
+            "hit": 1884,
+            "skill": 1237,
+            "attack": 2122,
+            "defense": 1189
+        },
+        {
+            "_id": "S211",
+            "hit": 2119,
+            "skill": 1413,
+            "attack": 2426,
+            "defense": 1359
+        },
+        {
+            "_id": "S212",
+            "hit": 3177,
+            "skill": 770,
+            "attack": 2090,
+            "defense": 1719
+        },
+        {
+            "_id": "S213",
+            "hit": 3574,
+            "skill": 880,
+            "attack": 2387,
+            "defense": 1965
+        },
+        {
+            "_id": "S214",
+            "hit": 3555,
+            "skill": 792,
+            "attack": 2050,
+            "defense": 1512
+        },
+        {
+            "_id": "S215",
+            "hit": 4000,
+            "skill": 904,
+            "attack": 2342,
+            "defense": 1728
+        },
+        {
+            "_id": "S216",
+            "hit": 2933,
+            "skill": 920,
+            "attack": 2080,
+            "defense": 1726
+        },
+        {
+            "_id": "S217",
+            "hit": 3300,
+            "skill": 1050,
+            "attack": 2377,
+            "defense": 1971
+        },
+        {
+            "_id": "S218",
+            "hit": 2550,
+            "skill": 875,
+            "attack": 2040,
+            "defense": 2487
+        },
+        {
+            "_id": "S219",
+            "hit": 2868,
+            "skill": 1001,
+            "attack": 2332,
+            "defense": 2843
+        },
+        {
+            "_id": "S220",
+            "hit": 2764,
+            "skill": 1289,
+            "attack": 2165,
+            "defense": 1410
+        },
+        {
+            "_id": "S221",
+            "hit": 3100,
+            "skill": 1474,
+            "attack": 2474,
+            "defense": 1611
+        },
+        {
+            "_id": "S222",
+            "hit": 2693,
+            "skill": 912,
+            "attack": 2091,
+            "defense": 2110
+        },
+        {
+            "_id": "S223",
+            "hit": 3030,
+            "skill": 1042,
+            "attack": 2390,
+            "defense": 2410
+        },
+        {
+            "_id": "S224",
+            "hit": 3110,
+            "skill": 795,
+            "attack": 2140,
+            "defense": 2194
+        },
+        {
+            "_id": "S225",
+            "hit": 3499,
+            "skill": 910,
+            "attack": 2445,
+            "defense": 2508
+        },
+        {
+            "_id": "S226",
+            "hit": 3646,
+            "skill": 858,
+            "attack": 2142,
+            "defense": 1665
+        },
+        {
+            "_id": "S227",
+            "hit": 4103,
+            "skill": 980,
+            "attack": 2448,
+            "defense": 1904
+        },
+        {
+            "_id": "S228",
+            "hit": 3374,
+            "skill": 650,
+            "attack": 2025,
+            "defense": 2035
+        },
+        {
+            "_id": "S229",
+            "hit": 3795,
+            "skill": 742,
+            "attack": 2314,
+            "defense": 2326
+        },
+        {
+            "_id": "S230",
+            "hit": 2016,
+            "skill": 1017,
+            "attack": 1877,
+            "defense": 1166
+        },
+        {
+            "_id": "S231",
+            "hit": 2268,
+            "skill": 1163,
+            "attack": 2145,
+            "defense": 1333
+        },
+        {
+            "_id": "S232",
+            "hit": 2394,
+            "skill": 956,
+            "attack": 1884,
+            "defense": 1365
+        },
+        {
+            "_id": "S233",
+            "hit": 2693,
+            "skill": 1092,
+            "attack": 2153,
+            "defense": 1560
+        },
+        {
+            "_id": "S234",
+            "hit": 3535,
+            "skill": 648,
+            "attack": 2091,
+            "defense": 1553
+        },
+        {
+            "_id": "S235",
+            "hit": 3978,
+            "skill": 740,
+            "attack": 2389,
+            "defense": 1776
+        },
+        {
+            "_id": "S236",
+            "hit": 3118,
+            "skill": 786,
+            "attack": 2095,
+            "defense": 1844
+        },
+        {
+            "_id": "S237",
+            "hit": 3508,
+            "skill": 899,
+            "attack": 2393,
+            "defense": 2109
+        },
+        {
+            "_id": "S238",
+            "hit": 2523,
+            "skill": 881,
+            "attack": 2010,
+            "defense": 2538
+        },
+        {
+            "_id": "S239",
+            "hit": 2838,
+            "skill": 1008,
+            "attack": 2298,
+            "defense": 2900
+        },
+        {
+            "_id": "S240",
+            "hit": 2737,
+            "skill": 831,
+            "attack": 2095,
+            "defense": 2069
+        },
+        {
+            "_id": "S241",
+            "hit": 3079,
+            "skill": 948,
+            "attack": 2393,
+            "defense": 2364
+        },
+        {
+            "_id": "S242",
+            "hit": 3210,
+            "skill": 1137,
+            "attack": 2236,
+            "defense": 1281
+        },
+        {
+            "_id": "S243",
+            "hit": 3600,
+            "skill": 1300,
+            "attack": 2555,
+            "defense": 1464
+        },
+        {
+            "_id": "S244",
+            "hit": 3771,
+            "skill": 706,
+            "attack": 2094,
+            "defense": 1502
+        },
+        {
+            "_id": "S245",
+            "hit": 4241,
+            "skill": 806,
+            "attack": 2392,
+            "defense": 1716
+        },
+        {
+            "_id": "S246",
+            "hit": 2400,
+            "skill": 909,
+            "attack": 1750,
+            "defense": 1400
+        },
+        {
+            "_id": "S247",
+            "hit": 2700,
+            "skill": 1040,
+            "attack": 2000,
+            "defense": 1600
+        },
+        {
+            "_id": "S248",
+            "hit": 1762,
+            "skill": 1200,
+            "attack": 2060,
+            "defense": 1100
+        },
+        {
+            "_id": "S249",
+            "hit": 1982,
+            "skill": 1372,
+            "attack": 2356,
+            "defense": 1259
+        },
+        {
+            "_id": "S250",
+            "hit": 2125,
+            "skill": 1266,
+            "attack": 1789,
+            "defense": 1338
+        },
+        {
+            "_id": "S251",
+            "hit": 2484,
+            "skill": 1445,
+            "attack": 2024,
+            "defense": 1395
+        },
+        {
+            "_id": "S252",
+            "hit": 2661,
+            "skill": 831,
+            "attack": 1902,
+            "defense": 1808
+        },
+        {
+            "_id": "S253",
+            "hit": 2993,
+            "skill": 950,
+            "attack": 2173,
+            "defense": 2067
+        },
+        {
+            "_id": "S254",
+            "hit": 2802,
+            "skill": 1313,
+            "attack": 2121,
+            "defense": 1330
+        },
+        {
+            "_id": "S255",
+            "hit": 3142,
+            "skill": 1501,
+            "attack": 2424,
+            "defense": 1521
+        },
+        {
+            "_id": "S256",
+            "hit": 2622,
+            "skill": 924,
+            "attack": 2050,
+            "defense": 2057
+        },
+        {
+            "_id": "S257",
+            "hit": 2950,
+            "skill": 1055,
+            "attack": 2342,
+            "defense": 2350
+        },
+        {
+            "_id": "S258",
+            "hit": 3693,
+            "skill": 828,
+            "attack": 2101,
+            "defense": 1527
+        },
+        {
+            "_id": "S259",
+            "hit": 4155,
+            "skill": 946,
+            "attack": 2400,
+            "defense": 1745
+        },
+        {
+            "_id": "S260",
+            "hit": 3643,
+            "skill": 920,
+            "attack": 1970,
+            "defense": 1797
+        },
+        {
+            "_id": "S261",
+            "hit": 4100,
+            "skill": 1051,
+            "attack": 2250,
+            "defense": 2055
+        },
+        {
+            "_id": "S262",
+            "hit": 2917,
+            "skill": 1260,
+            "attack": 2161,
+            "defense": 1297
+        },
+        {
+            "_id": "S263",
+            "hit": 3281,
+            "skill": 1440,
+            "attack": 2469,
+            "defense": 1482
+        },
+        {
+            "_id": "S264",
+            "hit": 2024,
+            "skill": 1151,
+            "attack": 1884,
+            "defense": 1338
+        },
+        {
+            "_id": "S265",
+            "hit": 2366,
+            "skill": 1313,
+            "attack": 2130,
+            "defense": 1395
+        },
+        {
+            "_id": "S266",
+            "hit": 2540,
+            "skill": 739,
+            "attack": 1875,
+            "defense": 1600
+        },
+        {
+            "_id": "S267",
+            "hit": 2950,
+            "skill": 841,
+            "attack": 2140,
+            "defense": 1850
+        },
+        {
+            "_id": "S268",
+            "hit": 3216,
+            "skill": 530,
+            "attack": 1983,
+            "defense": 1595
+        },
+        {
+            "_id": "S269",
+            "hit": 3600,
+            "skill": 606,
+            "attack": 2276,
+            "defense": 1824
+        },
+        {
+            "_id": "S270",
+            "hit": 2645,
+            "skill": 870,
+            "attack": 1865,
+            "defense": 1229
+        },
+        {
+            "_id": "S271",
+            "hit": 2976,
+            "skill": 994,
+            "attack": 2131,
+            "defense": 1404
+        },
+        {
+            "_id": "S272",
+            "hit": 2339,
+            "skill": 1399,
+            "attack": 2110,
+            "defense": 1357
+        },
+        {
+            "_id": "S273",
+            "hit": 2631,
+            "skill": 1600,
+            "attack": 2411,
+            "defense": 1551
+        },
+        {
+            "_id": "S274",
+            "hit": 3548,
+            "skill": 801,
+            "attack": 2090,
+            "defense": 1548
+        },
+        {
+            "_id": "S275",
+            "hit": 3992,
+            "skill": 915,
+            "attack": 2388,
+            "defense": 1770
+        },
+        {
+            "_id": "S276",
+            "hit": 2737,
+            "skill": 958,
+            "attack": 2000,
+            "defense": 2261
+        },
+        {
+            "_id": "S277",
+            "hit": 3078,
+            "skill": 1095,
+            "attack": 2286,
+            "defense": 2584
+        },
+        {
+            "_id": "S278",
+            "hit": 3599,
+            "skill": 798,
+            "attack": 2120,
+            "defense": 1549
+        },
+        {
+            "_id": "S279",
+            "hit": 4050,
+            "skill": 912,
+            "attack": 2422,
+            "defense": 1772
+        },
+        {
+            "_id": "S280",
+            "hit": 2725,
+            "skill": 798,
+            "attack": 2097,
+            "defense": 2111
+        },
+        {
+            "_id": "S281",
+            "hit": 3066,
+            "skill": 912,
+            "attack": 2396,
+            "defense": 2411
+        },
+        {
+            "_id": "S282",
+            "hit": 3055,
+            "skill": 854,
+            "attack": 2100,
+            "defense": 2232
+        },
+        {
+            "_id": "S283",
+            "hit": 3436,
+            "skill": 976,
+            "attack": 2400,
+            "defense": 2550
+        },
+        {
+            "_id": "S284",
+            "hit": 3288,
+            "skill": 785,
+            "attack": 2150,
+            "defense": 1995
+        },
+        {
+            "_id": "S285",
+            "hit": 3700,
+            "skill": 898,
+            "attack": 2456,
+            "defense": 2308
+        },
+        {
+            "_id": "S286",
+            "hit": 2756,
+            "skill": 1426,
+            "attack": 2187,
+            "defense": 1487
+        },
+        {
+            "_id": "S287",
+            "hit": 3091,
+            "skill": 1630,
+            "attack": 2499,
+            "defense": 1700
+        },
+        {
+            "_id": "S288",
+            "hit": 3958,
+            "skill": 554,
+            "attack": 2012,
+            "defense": 1548
+        },
+        {
+            "_id": "S289",
+            "hit": 4453,
+            "skill": 634,
+            "attack": 2299,
+            "defense": 1770
+        },
+        {
+            "_id": "S290",
+            "hit": 1938,
+            "skill": 1200,
+            "attack": 2122,
+            "defense": 869
+        },
+        {
+            "_id": "S291",
+            "hit": 2180,
+            "skill": 1372,
+            "attack": 2427,
+            "defense": 995
+        },
+        {
+            "_id": "S292",
+            "hit": 3178,
+            "skill": 604,
+            "attack": 1908,
+            "defense": 1640
+        },
+        {
+            "_id": "S293",
+            "hit": 3566,
+            "skill": 691,
+            "attack": 2184,
+            "defense": 1875
+        },
+        {
+            "_id": "S294",
+            "hit": 2441,
+            "skill": 1052,
+            "attack": 1929,
+            "defense": 1217
+        },
+        {
+            "_id": "S295",
+            "hit": 2746,
+            "skill": 1201,
+            "attack": 2205,
+            "defense": 1390
+        },
+        {
+            "_id": "S296",
+            "hit": 3998,
+            "skill": 788,
+            "attack": 2000,
+            "defense": 1128
+        },
+        {
+            "_id": "S297",
+            "hit": 4500,
+            "skill": 900,
+            "attack": 2285,
+            "defense": 1290
+        },
+        {
+            "_id": "S298",
+            "hit": 2488,
+            "skill": 968,
+            "attack": 1950,
+            "defense": 2469
+        },
+        {
+            "_id": "S299",
+            "hit": 2798,
+            "skill": 1106,
+            "attack": 2228,
+            "defense": 2821
+        },
+        {
+            "_id": "S300",
+            "hit": 3473,
+            "skill": 793,
+            "attack": 2070,
+            "defense": 1750
+        },
+        {
+            "_id": "S301",
+            "hit": 3907,
+            "skill": 906,
+            "attack": 2365,
+            "defense": 2000
+        },
+        {
+            "_id": "S302",
+            "hit": 2793,
+            "skill": 876,
+            "attack": 2050,
+            "defense": 2013
+        },
+        {
+            "_id": "S303",
+            "hit": 3143,
+            "skill": 1000,
+            "attack": 2342,
+            "defense": 2300
+        },
+        {
+            "_id": "S304",
+            "hit": 3466,
+            "skill": 830,
+            "attack": 2118,
+            "defense": 1832
+        },
+        {
+            "_id": "S305",
+            "hit": 3900,
+            "skill": 948,
+            "attack": 2420,
+            "defense": 2094
+        },
+        {
+            "_id": "S306",
+            "hit": 3031,
+            "skill": 1137,
+            "attack": 2206,
+            "defense": 1335
+        },
+        {
+            "_id": "S307",
+            "hit": 3400,
+            "skill": 1300,
+            "attack": 2520,
+            "defense": 1525
+        },
+        {
+            "_id": "S308",
+            "hit": 3375,
+            "skill": 964,
+            "attack": 2136,
+            "defense": 1749
+        },
+        {
+            "_id": "S309",
+            "hit": 3799,
+            "skill": 1101,
+            "attack": 2440,
+            "defense": 2000
+        },
+        {
+            "_id": "S310",
+            "hit": 2666,
+            "skill": 947,
+            "attack": 2078,
+            "defense": 2624
+        },
+        {
+            "_id": "S311",
+            "hit": 3000,
+            "skill": 1082,
+            "attack": 2374,
+            "defense": 3000
+        },
+        {
+            "_id": "S312",
+            "hit": 2760,
+            "skill": 1048,
+            "attack": 2060,
+            "defense": 2450
+        },
+        {
+            "_id": "S313",
+            "hit": 3104,
+            "skill": 1198,
+            "attack": 2355,
+            "defense": 2800
+        },
+        {
+            "_id": "S314",
+            "hit": 2887,
+            "skill": 1231,
+            "attack": 2121,
+            "defense": 1395
+        },
+        {
+            "_id": "S315",
+            "hit": 3248,
+            "skill": 1407,
+            "attack": 2424,
+            "defense": 1593
+        },
+        {
+            "_id": "S316",
+            "hit": 2924,
+            "skill": 663,
+            "attack": 1983,
+            "defense": 1612
+        },
+        {
+            "_id": "S317",
+            "hit": 3273,
+            "skill": 758,
+            "attack": 2276,
+            "defense": 1842
+        },
+        {
+            "_id": "S318",
+            "hit": 2190,
+            "skill": 1109,
+            "attack": 1780,
+            "defense": 1419
+        },
+        {
+            "_id": "S319",
+            "hit": 2508,
+            "skill": 1266,
+            "attack": 2024,
+            "defense": 1555
+        },
+        {
+            "_id": "S320",
+            "hit": 3360,
+            "skill": 717,
+            "attack": 1999,
+            "defense": 1671
+        },
+        {
+            "_id": "S321",
+            "hit": 3781,
+            "skill": 819,
+            "attack": 2284,
+            "defense": 1910
+        },
+        {
+            "_id": "S322",
+            "hit": 2869,
+            "skill": 842,
+            "attack": 1999,
+            "defense": 2009
+        },
+        {
+            "_id": "S323",
+            "hit": 3227,
+            "skill": 963,
+            "attack": 2284,
+            "defense": 2295
+        },
+        {
+            "_id": "S324",
+            "hit": 2830,
+            "skill": 1300,
+            "attack": 2187,
+            "defense": 1251
+        },
+        {
+            "_id": "S325",
+            "hit": 3174,
+            "skill": 1486,
+            "attack": 2499,
+            "defense": 1429
+        },
+        {
+            "_id": "S326",
+            "hit": 2845,
+            "skill": 964,
+            "attack": 2050,
+            "defense": 1798
+        },
+        {
+            "_id": "S327",
+            "hit": 3201,
+            "skill": 1100,
+            "attack": 2342,
+            "defense": 2054
+        },
+        {
+            "_id": "S328",
+            "hit": 3073,
+            "skill": 830,
+            "attack": 2050,
+            "defense": 2125
+        },
+        {
+            "_id": "S329",
+            "hit": 3458,
+            "skill": 949,
+            "attack": 2343,
+            "defense": 2429
+        },
+        {
+            "_id": "S330",
+            "hit": 3802,
+            "skill": 876,
+            "attack": 2099,
+            "defense": 1374
+        },
+        {
+            "_id": "S331",
+            "hit": 4278,
+            "skill": 1000,
+            "attack": 2399,
+            "defense": 1571
+        },
+        {
+            "_id": "S332",
+            "hit": 2683,
+            "skill": 1050,
+            "attack": 1986,
+            "defense": 2598
+        },
+        {
+            "_id": "S333",
+            "hit": 3018,
+            "skill": 1200,
+            "attack": 2270,
+            "defense": 2970
+        },
+        {
+            "_id": "S334",
+            "hit": 2934,
+            "skill": 875,
+            "attack": 2150,
+            "defense": 2493
+        },
+        {
+            "_id": "S335",
+            "hit": 3301,
+            "skill": 1000,
+            "attack": 2456,
+            "defense": 2700
+        },
+        {
+            "_id": "S336",
+            "hit": 3338,
+            "skill": 968,
+            "attack": 2110,
+            "defense": 1568
+        },
+        {
+            "_id": "S337",
+            "hit": 3756,
+            "skill": 1106,
+            "attack": 2410,
+            "defense": 1793
+        },
+        {
+            "_id": "S338",
+            "hit": 2666,
+            "skill": 915,
+            "attack": 2080,
+            "defense": 1917
+        },
+        {
+            "_id": "S339",
+            "hit": 3000,
+            "skill": 1045,
+            "attack": 2377,
+            "defense": 2191
+        },
+        {
+            "_id": "S340",
+            "hit": 3006,
+            "skill": 1225,
+            "attack": 2070,
+            "defense": 1344
+        },
+        {
+            "_id": "S341",
+            "hit": 3371,
+            "skill": 1401,
+            "attack": 2365,
+            "defense": 1537
+        },
+        {
+            "_id": "S342",
+            "hit": 3397,
+            "skill": 852,
+            "attack": 2153,
+            "defense": 1762
+        },
+        {
+            "_id": "S343",
+            "hit": 3822,
+            "skill": 974,
+            "attack": 2460,
+            "defense": 2014
+        },
+        {
+            "_id": "S344",
+            "hit": 2928,
+            "skill": 857,
+            "attack": 2109,
+            "defense": 2427
+        },
+        {
+            "_id": "S345",
+            "hit": 3294,
+            "skill": 980,
+            "attack": 2410,
+            "defense": 2774
+        }
     ],
     "Card": [
         {
+            "wepon": "S",
+            "l70": "S1",
             "character": "Miki",
-            "wepon": "S",
-            "category": "Phoenix",
-            "l50": "1_50",
-            "l70": "1_70"
+            "l50": "S0",
+            "category": "C0"
         },
         {
-            "character": "Yuri",
-            "wepon": "S",
-            "category": "Phoenix",
-            "l50": "2_50",
-            "l70": "2_70"
-        },
-        {
-            "character": "Renge",
-            "wepon": "W",
-            "category": "Phoenix",
-            "l50": "3_50",
-            "l70": "3_70"
-        },
-        {
-            "character": "Kaede",
             "wepon": "L",
-            "category": "Phoenix",
-            "l50": "4_50",
-            "l70": "4_70"
+            "l70": "S3",
+            "character": "Miki",
+            "l50": "S2",
+            "category": "C1"
         },
         {
-            "character": "URR",
+            "wepon": "H",
+            "l70": "S5",
+            "character": "Miki",
+            "l50": "S4",
+            "category": "C2"
+        },
+        {
+            "wepon": "S",
+            "l70": "S7",
+            "character": "Miki",
+            "l50": "S6",
+            "category": "C3"
+        },
+        {
+            "wepon": "G",
+            "l70": "S9",
+            "character": "Miki",
+            "l50": "S8",
+            "category": "C4"
+        },
+        {
             "wepon": "W",
-            "category": "Phoenix",
-            "l50": "5_50",
-            "l70": "5_70"
+            "l70": "S11",
+            "character": "Miki",
+            "l50": "S10",
+            "category": "C5"
+        },
+        {
+            "wepon": "L",
+            "l70": "S13",
+            "character": "Miki",
+            "l50": "S12",
+            "category": "C6"
+        },
+        {
+            "wepon": "H",
+            "l70": "S15",
+            "character": "Miki",
+            "l50": "S14",
+            "category": "C7"
+        },
+        {
+            "wepon": "G",
+            "l70": "S17",
+            "character": "Miki",
+            "l50": "S16",
+            "category": "C8"
+        },
+        {
+            "wepon": "W",
+            "l70": "S19",
+            "character": "Miki",
+            "l50": "S18",
+            "category": "C9"
+        },
+        {
+            "wepon": "S",
+            "l70": "S21",
+            "character": "Miki",
+            "l50": "S20",
+            "category": "C10"
+        },
+        {
+            "wepon": "H",
+            "l70": "S23",
+            "character": "Miki",
+            "l50": "S22",
+            "category": "C11"
+        },
+        {
+            "wepon": "H",
+            "l70": "S25",
+            "character": "Subaru",
+            "l50": "S24",
+            "category": "C12"
+        },
+        {
+            "wepon": "G",
+            "l70": "S27",
+            "character": "Subaru",
+            "l50": "S26",
+            "category": "C13"
+        },
+        {
+            "wepon": "L",
+            "l70": "S29",
+            "character": "Subaru",
+            "l50": "S28",
+            "category": "C2"
+        },
+        {
+            "wepon": "W",
+            "l70": "S31",
+            "character": "Subaru",
+            "l50": "S30",
+            "category": "C3"
+        },
+        {
+            "wepon": "S",
+            "l70": "S33",
+            "character": "Subaru",
+            "l50": "S32",
+            "category": "C4"
+        },
+        {
+            "wepon": "H",
+            "l70": "S35",
+            "character": "Subaru",
+            "l50": "S34",
+            "category": "C5"
+        },
+        {
+            "wepon": "G",
+            "l70": "S37",
+            "character": "Subaru",
+            "l50": "S36",
+            "category": "C6"
+        },
+        {
+            "wepon": "W",
+            "l70": "S39",
+            "character": "Subaru",
+            "l50": "S38",
+            "category": "C7"
+        },
+        {
+            "wepon": "H",
+            "l70": "S41",
+            "character": "Subaru",
+            "l50": "S40",
+            "category": "C14"
+        },
+        {
+            "wepon": "L",
+            "l70": "S43",
+            "character": "Subaru",
+            "l50": "S42",
+            "category": "C11"
+        },
+        {
+            "wepon": "L",
+            "l70": "S45",
+            "character": "Haruka",
+            "l50": "S44",
+            "category": "C15"
+        },
+        {
+            "wepon": "H",
+            "l70": "S47",
+            "character": "Haruka",
+            "l50": "S46",
+            "category": "C16"
+        },
+        {
+            "wepon": "S",
+            "l70": "S49",
+            "character": "Haruka",
+            "l50": "S48",
+            "category": "C2"
+        },
+        {
+            "wepon": "G",
+            "l70": "S51",
+            "character": "Haruka",
+            "l50": "S50",
+            "category": "C3"
+        },
+        {
+            "wepon": "L",
+            "l70": "S53",
+            "character": "Haruka",
+            "l50": "S52",
+            "category": "C17"
+        },
+        {
+            "wepon": "W",
+            "l70": "S55",
+            "character": "Haruka",
+            "l50": "S54",
+            "category": "C4"
+        },
+        {
+            "wepon": "G",
+            "l70": "S57",
+            "character": "Haruka",
+            "l50": "S56",
+            "category": "C5"
+        },
+        {
+            "wepon": "H",
+            "l70": "S59",
+            "character": "Haruka",
+            "l50": "S58",
+            "category": "C6"
+        },
+        {
+            "wepon": "L",
+            "l70": "S61",
+            "character": "Haruka",
+            "l50": "S60",
+            "category": "C7"
+        },
+        {
+            "wepon": "W",
+            "l70": "S63",
+            "character": "Haruka",
+            "l50": "S62",
+            "category": "C14"
+        },
+        {
+            "wepon": "S",
+            "l70": "S65",
+            "character": "Haruka",
+            "l50": "S64",
+            "category": "C11"
+        },
+        {
+            "wepon": "G",
+            "l70": "S67",
+            "character": "Nozomi",
+            "l50": "S66",
+            "category": "C12"
+        },
+        {
+            "wepon": "S",
+            "l70": "S69",
+            "character": "Nozomi",
+            "l50": "S68",
+            "category": "C18"
+        },
+        {
+            "wepon": "W",
+            "l70": "S71",
+            "character": "Nozomi",
+            "l50": "S70",
+            "category": "C19"
+        },
+        {
+            "wepon": "H",
+            "l70": "S73",
+            "character": "Nozomi",
+            "l50": "S72",
+            "category": "C2"
+        },
+        {
+            "wepon": "S",
+            "l70": "S75",
+            "character": "Nozomi",
+            "l50": "S74",
+            "category": "C20"
+        },
+        {
+            "wepon": "L",
+            "l70": "S77",
+            "character": "Nozomi",
+            "l50": "S76",
+            "category": "C6"
+        },
+        {
+            "wepon": "G",
+            "l70": "S79",
+            "character": "Nozomi",
+            "l50": "S78",
+            "category": "C7"
+        },
+        {
+            "wepon": "W",
+            "l70": "S81",
+            "character": "Nozomi",
+            "l50": "S80",
+            "category": "C11"
+        },
+        {
+            "wepon": "S",
+            "l70": "S83",
+            "character": "Yuri",
+            "l50": "S82",
+            "category": "C0"
+        },
+        {
+            "wepon": "S",
+            "l70": "S85",
+            "character": "Yuri",
+            "l50": "S84",
+            "category": "C21"
+        },
+        {
+            "wepon": "L",
+            "l70": "S87",
+            "character": "Yuri",
+            "l50": "S86",
+            "category": "C19"
+        },
+        {
+            "wepon": "W",
+            "l70": "S89",
+            "character": "Yuri",
+            "l50": "S88",
+            "category": "C2"
+        },
+        {
+            "wepon": "H",
+            "l70": "S91",
+            "character": "Yuri",
+            "l50": "S90",
+            "category": "C20"
+        },
+        {
+            "wepon": "W",
+            "l70": "S93",
+            "character": "Yuri",
+            "l50": "S92",
+            "category": "C6"
+        },
+        {
+            "wepon": "S",
+            "l70": "S95",
+            "character": "Yuri",
+            "l50": "S94",
+            "category": "C7"
+        },
+        {
+            "wepon": "S",
+            "l70": "S97",
+            "character": "Yuri",
+            "l50": "S96",
+            "category": "C14"
+        },
+        {
+            "wepon": "G",
+            "l70": "S99",
+            "character": "Yuri",
+            "l50": "S98",
+            "category": "C11"
+        },
+        {
+            "wepon": "H",
+            "l70": "S101",
+            "character": "Kurumi",
+            "l50": "S100",
+            "category": "C15"
+        },
+        {
+            "wepon": "W",
+            "l70": "S103",
+            "character": "Kurumi",
+            "l50": "S102",
+            "category": "C22"
+        },
+        {
+            "wepon": "S",
+            "l70": "S105",
+            "character": "Kurumi",
+            "l50": "S104",
+            "category": "C19"
+        },
+        {
+            "wepon": "L",
+            "l70": "S107",
+            "character": "Kurumi",
+            "l50": "S106",
+            "category": "C2"
+        },
+        {
+            "wepon": "H",
+            "l70": "S109",
+            "character": "Kurumi",
+            "l50": "S108",
+            "category": "C17"
+        },
+        {
+            "wepon": "G",
+            "l70": "S111",
+            "character": "Kurumi",
+            "l50": "S110",
+            "category": "C20"
+        },
+        {
+            "wepon": "W",
+            "l70": "S113",
+            "character": "Kurumi",
+            "l50": "S112",
+            "category": "C6"
+        },
+        {
+            "wepon": "S",
+            "l70": "S115",
+            "character": "Kurumi",
+            "l50": "S114",
+            "category": "C7"
+        },
+        {
+            "wepon": "H",
+            "l70": "S117",
+            "character": "Kurumi",
+            "l50": "S116",
+            "category": "C8"
+        },
+        {
+            "wepon": "W",
+            "l70": "S119",
+            "character": "Kurumi",
+            "l50": "S118",
+            "category": "C9"
+        },
+        {
+            "wepon": "L",
+            "l70": "S121",
+            "character": "Kurumi",
+            "l50": "S120",
+            "category": "C10"
+        },
+        {
+            "wepon": "G",
+            "l70": "S123",
+            "character": "Kurumi",
+            "l50": "S122",
+            "category": "C11"
+        },
+        {
+            "wepon": "G",
+            "l70": "S125",
+            "character": "Anko",
+            "l50": "S124",
+            "category": "C12"
+        },
+        {
+            "wepon": "H",
+            "l70": "S127",
+            "character": "Anko",
+            "l50": "S126",
+            "category": "C23"
+        },
+        {
+            "wepon": "L",
+            "l70": "S129",
+            "character": "Anko",
+            "l50": "S128",
+            "category": "C24"
+        },
+        {
+            "wepon": "S",
+            "l70": "S131",
+            "character": "Anko",
+            "l50": "S130",
+            "category": "C2"
+        },
+        {
+            "wepon": "H",
+            "l70": "S133",
+            "character": "Anko",
+            "l50": "S132",
+            "category": "C25"
+        },
+        {
+            "wepon": "G",
+            "l70": "S135",
+            "character": "Anko",
+            "l50": "S134",
+            "category": "C17"
+        },
+        {
+            "wepon": "W",
+            "l70": "S137",
+            "character": "Anko",
+            "l50": "S136",
+            "category": "C26"
+        },
+        {
+            "wepon": "S",
+            "l70": "S139",
+            "character": "Anko",
+            "l50": "S138",
+            "category": "C5"
+        },
+        {
+            "wepon": "L",
+            "l70": "S141",
+            "character": "Anko",
+            "l50": "S140",
+            "category": "C27"
+        },
+        {
+            "wepon": "S",
+            "l70": "S143",
+            "character": "Anko",
+            "l50": "S142",
+            "category": "C6"
+        },
+        {
+            "wepon": "H",
+            "l70": "S145",
+            "character": "Anko",
+            "l50": "S144",
+            "category": "C7"
+        },
+        {
+            "wepon": "G",
+            "l70": "S147",
+            "character": "Anko",
+            "l50": "S146",
+            "category": "C11"
+        },
+        {
+            "wepon": "L",
+            "l70": "S149",
+            "character": "Anko",
+            "l50": "S148",
+            "category": "C28"
+        },
+        {
+            "wepon": "W",
+            "l70": "S151",
+            "character": "Renge",
+            "l50": "S150",
+            "category": "C0"
+        },
+        {
+            "wepon": "L",
+            "l70": "S153",
+            "character": "Renge",
+            "l50": "S152",
+            "category": "C29"
+        },
+        {
+            "wepon": "G",
+            "l70": "S155",
+            "character": "Renge",
+            "l50": "S154",
+            "category": "C23"
+        },
+        {
+            "wepon": "S",
+            "l70": "S157",
+            "character": "Renge",
+            "l50": "S156",
+            "category": "C24"
+        },
+        {
+            "wepon": "W",
+            "l70": "S159",
+            "character": "Renge",
+            "l50": "S158",
+            "category": "C2"
+        },
+        {
+            "wepon": "S",
+            "l70": "S161",
+            "character": "Renge",
+            "l50": "S160",
+            "category": "C17"
+        },
+        {
+            "wepon": "H",
+            "l70": "S163",
+            "character": "Renge",
+            "l50": "S162",
+            "category": "C26"
+        },
+        {
+            "wepon": "L",
+            "l70": "S165",
+            "character": "Renge",
+            "l50": "S164",
+            "category": "C5"
+        },
+        {
+            "wepon": "W",
+            "l70": "S167",
+            "character": "Renge",
+            "l50": "S166",
+            "category": "C27"
+        },
+        {
+            "wepon": "W",
+            "l70": "S169",
+            "character": "Renge",
+            "l50": "S168",
+            "category": "C6"
+        },
+        {
+            "wepon": "S",
+            "l70": "S171",
+            "character": "Renge",
+            "l50": "S170",
+            "category": "C7"
+        },
+        {
+            "wepon": "L",
+            "l70": "S173",
+            "character": "Renge",
+            "l50": "S172",
+            "category": "C9"
+        },
+        {
+            "wepon": "G",
+            "l70": "S175",
+            "character": "Renge",
+            "l50": "S174",
+            "category": "C10"
+        },
+        {
+            "wepon": "L",
+            "l70": "S177",
+            "character": "Renge",
+            "l50": "S176",
+            "category": "C11"
+        },
+        {
+            "wepon": "G",
+            "l70": "S179",
+            "character": "Renge",
+            "l50": "S178",
+            "category": "C28"
+        },
+        {
+            "wepon": "S",
+            "l70": "S181",
+            "character": "Asuha",
+            "l50": "S180",
+            "category": "C15"
+        },
+        {
+            "wepon": "L",
+            "l70": "S183",
+            "character": "Asuha",
+            "l50": "S182",
+            "category": "C23"
+        },
+        {
+            "wepon": "W",
+            "l70": "S185",
+            "character": "Asuha",
+            "l50": "S184",
+            "category": "C24"
+        },
+        {
+            "wepon": "H",
+            "l70": "S187",
+            "character": "Asuha",
+            "l50": "S186",
+            "category": "C2"
+        },
+        {
+            "wepon": "S",
+            "l70": "S189",
+            "character": "Asuha",
+            "l50": "S188",
+            "category": "C30"
+        },
+        {
+            "wepon": "G",
+            "l70": "S191",
+            "character": "Asuha",
+            "l50": "S190",
+            "category": "C26"
+        },
+        {
+            "wepon": "L",
+            "l70": "S193",
+            "character": "Asuha",
+            "l50": "S192",
+            "category": "C5"
+        },
+        {
+            "wepon": "H",
+            "l70": "S195",
+            "character": "Asuha",
+            "l50": "S194",
+            "category": "C6"
+        },
+        {
+            "wepon": "W",
+            "l70": "S197",
+            "character": "Asuha",
+            "l50": "S196",
+            "category": "C7"
+        },
+        {
+            "wepon": "S",
+            "l70": "S199",
+            "character": "Asuha",
+            "l50": "S198",
+            "category": "C8"
+        },
+        {
+            "wepon": "G",
+            "l70": "S201",
+            "character": "Asuha",
+            "l50": "S200",
+            "category": "C14"
+        },
+        {
+            "wepon": "S",
+            "l70": "S203",
+            "character": "Asuha",
+            "l50": "S202",
+            "category": "C11"
+        },
+        {
+            "wepon": "W",
+            "l70": "S205",
+            "character": "Asuha",
+            "l50": "S204",
+            "category": "C28"
+        },
+        {
+            "wepon": "G",
+            "l70": "S207",
+            "character": "Sakura",
+            "l50": "S206",
+            "category": "C15"
+        },
+        {
+            "wepon": "S",
+            "l70": "S209",
+            "character": "Sakura",
+            "l50": "S208",
+            "category": "C31"
+        },
+        {
+            "wepon": "W",
+            "l70": "S211",
+            "character": "Sakura",
+            "l50": "S210",
+            "category": "C2"
+        },
+        {
+            "wepon": "H",
+            "l70": "S213",
+            "character": "Sakura",
+            "l50": "S212",
+            "category": "C3"
+        },
+        {
+            "wepon": "L",
+            "l70": "S215",
+            "character": "Sakura",
+            "l50": "S214",
+            "category": "C4"
+        },
+        {
+            "wepon": "G",
+            "l70": "S217",
+            "character": "Sakura",
+            "l50": "S216",
+            "category": "C27"
+        },
+        {
+            "wepon": "S",
+            "l70": "S219",
+            "character": "Sakura",
+            "l50": "S218",
+            "category": "C6"
+        },
+        {
+            "wepon": "W",
+            "l70": "S221",
+            "character": "Sakura",
+            "l50": "S220",
+            "category": "C7"
+        },
+        {
+            "wepon": "G",
+            "l70": "S223",
+            "character": "Sakura",
+            "l50": "S222",
+            "category": "C9"
+        },
+        {
+            "wepon": "H",
+            "l70": "S225",
+            "character": "Sakura",
+            "l50": "S224",
+            "category": "C10"
+        },
+        {
+            "wepon": "L",
+            "l70": "S227",
+            "character": "Sakura",
+            "l50": "S226",
+            "category": "C11"
+        },
+        {
+            "wepon": "H",
+            "l70": "S229",
+            "character": "Hinata",
+            "l50": "S228",
+            "category": "C12"
+        },
+        {
+            "wepon": "W",
+            "l70": "S231",
+            "character": "Hinata",
+            "l50": "S230",
+            "category": "C32"
+        },
+        {
+            "wepon": "G",
+            "l70": "S233",
+            "character": "Hinata",
+            "l50": "S232",
+            "category": "C2"
+        },
+        {
+            "wepon": "L",
+            "l70": "S235",
+            "character": "Hinata",
+            "l50": "S234",
+            "category": "C3"
+        },
+        {
+            "wepon": "H",
+            "l70": "S237",
+            "character": "Hinata",
+            "l50": "S236",
+            "category": "C4"
+        },
+        {
+            "wepon": "S",
+            "l70": "S239",
+            "character": "Hinata",
+            "l50": "S238",
+            "category": "C6"
+        },
+        {
+            "wepon": "G",
+            "l70": "S241",
+            "character": "Hinata",
+            "l50": "S240",
+            "category": "C7"
+        },
+        {
+            "wepon": "W",
+            "l70": "S243",
+            "character": "Hinata",
+            "l50": "S242",
+            "category": "C11"
+        },
+        {
+            "wepon": "L",
+            "l70": "S245",
+            "character": "Kaede",
+            "l50": "S244",
+            "category": "C0"
+        },
+        {
+            "wepon": "G",
+            "l70": "S247",
+            "character": "Kaede",
+            "l50": "S246",
+            "category": "C33"
+        },
+        {
+            "wepon": "W",
+            "l70": "S249",
+            "character": "Kaede",
+            "l50": "S248",
+            "category": "C23"
+        },
+        {
+            "wepon": "G",
+            "l70": "S251",
+            "character": "Kaede",
+            "l50": "S250",
+            "category": "C19"
+        },
+        {
+            "wepon": "S",
+            "l70": "S253",
+            "character": "Kaede",
+            "l50": "S252",
+            "category": "C2"
+        },
+        {
+            "wepon": "W",
+            "l70": "S255",
+            "character": "Kaede",
+            "l50": "S254",
+            "category": "C20"
+        },
+        {
+            "wepon": "G",
+            "l70": "S257",
+            "character": "Kaede",
+            "l50": "S256",
+            "category": "C6"
+        },
+        {
+            "wepon": "L",
+            "l70": "S259",
+            "character": "Kaede",
+            "l50": "S258",
+            "category": "C7"
+        },
+        {
+            "wepon": "H",
+            "l70": "S261",
+            "character": "Kaede",
+            "l50": "S260",
+            "category": "C11"
+        },
+        {
+            "wepon": "W",
+            "l70": "S263",
+            "character": "Mumi",
+            "l50": "S262",
+            "category": "C12"
+        },
+        {
+            "wepon": "G",
+            "l70": "S265",
+            "character": "Mumi",
+            "l50": "S264",
+            "category": "C34"
+        },
+        {
+            "wepon": "S",
+            "l70": "S267",
+            "character": "Mumi",
+            "l50": "S266",
+            "category": "C23"
+        },
+        {
+            "wepon": "H",
+            "l70": "S269",
+            "character": "Mumi",
+            "l50": "S268",
+            "category": "C19"
+        },
+        {
+            "wepon": "G",
+            "l70": "S271",
+            "character": "Mumi",
+            "l50": "S270",
+            "category": "C2"
+        },
+        {
+            "wepon": "W",
+            "l70": "S273",
+            "character": "Mumi",
+            "l50": "S272",
+            "category": "C17"
+        },
+        {
+            "wepon": "L",
+            "l70": "S275",
+            "character": "Mumi",
+            "l50": "S274",
+            "category": "C20"
+        },
+        {
+            "wepon": "S",
+            "l70": "S277",
+            "character": "Mumi",
+            "l50": "S276",
+            "category": "C27"
+        },
+        {
+            "wepon": "L",
+            "l70": "S279",
+            "character": "Mumi",
+            "l50": "S278",
+            "category": "C6"
+        },
+        {
+            "wepon": "G",
+            "l70": "S281",
+            "character": "Mumi",
+            "l50": "S280",
+            "category": "C7"
+        },
+        {
+            "wepon": "S",
+            "l70": "S283",
+            "character": "Mumi",
+            "l50": "S282",
+            "category": "C9"
+        },
+        {
+            "wepon": "H",
+            "l70": "S285",
+            "character": "Mumi",
+            "l50": "S284",
+            "category": "C10"
+        },
+        {
+            "wepon": "W",
+            "l70": "S287",
+            "character": "Mumi",
+            "l50": "S286",
+            "category": "C11"
+        },
+        {
+            "wepon": "L",
+            "l70": "S289",
+            "character": "Kokomi",
+            "l50": "S288",
+            "category": "C15"
+        },
+        {
+            "wepon": "W",
+            "l70": "S291",
+            "character": "Kokomi",
+            "l50": "S290",
+            "category": "C35"
+        },
+        {
+            "wepon": "H",
+            "l70": "S293",
+            "character": "Kokomi",
+            "l50": "S292",
+            "category": "C24"
+        },
+        {
+            "wepon": "G",
+            "l70": "S295",
+            "character": "Kokomi",
+            "l50": "S294",
+            "category": "C2"
+        },
+        {
+            "wepon": "L",
+            "l70": "S297",
+            "character": "Kokomi",
+            "l50": "S296",
+            "category": "C26"
+        },
+        {
+            "wepon": "S",
+            "l70": "S299",
+            "character": "Kokomi",
+            "l50": "S298",
+            "category": "C5"
+        },
+        {
+            "wepon": "H",
+            "l70": "S301",
+            "character": "Kokomi",
+            "l50": "S300",
+            "category": "C6"
+        },
+        {
+            "wepon": "G",
+            "l70": "S303",
+            "character": "Kokomi",
+            "l50": "S302",
+            "category": "C7"
+        },
+        {
+            "wepon": "H",
+            "l70": "S305",
+            "character": "Kokomi",
+            "l50": "S304",
+            "category": "C9"
+        },
+        {
+            "wepon": "W",
+            "l70": "S307",
+            "character": "Kokomi",
+            "l50": "S306",
+            "category": "C10"
+        },
+        {
+            "wepon": "L",
+            "l70": "S309",
+            "character": "Kokomi",
+            "l50": "S308",
+            "category": "C14"
+        },
+        {
+            "wepon": "H",
+            "l70": "S311",
+            "character": "Kokomi",
+            "l50": "S310",
+            "category": "C11"
+        },
+        {
+            "wepon": "S",
+            "l70": "S313",
+            "character": "Kokomi",
+            "l50": "S312",
+            "category": "C28"
+        },
+        {
+            "wepon": "W",
+            "l70": "S315",
+            "character": "URR",
+            "l50": "S314",
+            "category": "C0"
+        },
+        {
+            "wepon": "H",
+            "l70": "S317",
+            "character": "URR",
+            "l50": "S316",
+            "category": "C36"
+        },
+        {
+            "wepon": "G",
+            "l70": "S319",
+            "character": "URR",
+            "l50": "S318",
+            "category": "C24"
+        },
+        {
+            "wepon": "L",
+            "l70": "S321",
+            "character": "URR",
+            "l50": "S320",
+            "category": "C2"
+        },
+        {
+            "wepon": "S",
+            "l70": "S323",
+            "character": "URR",
+            "l50": "S322",
+            "category": "C26"
+        },
+        {
+            "wepon": "W",
+            "l70": "S325",
+            "character": "URR",
+            "l50": "S324",
+            "category": "C5"
+        },
+        {
+            "wepon": "G",
+            "l70": "S327",
+            "character": "URR",
+            "l50": "S326",
+            "category": "C6"
+        },
+        {
+            "wepon": "H",
+            "l70": "S329",
+            "character": "URR",
+            "l50": "S328",
+            "category": "C27"
+        },
+        {
+            "wepon": "L",
+            "l70": "S331",
+            "character": "URR",
+            "l50": "S330",
+            "category": "C7"
+        },
+        {
+            "wepon": "S",
+            "l70": "S333",
+            "character": "URR",
+            "l50": "S332",
+            "category": "C11"
+        },
+        {
+            "wepon": "H",
+            "l70": "S335",
+            "character": "URR",
+            "l50": "S334",
+            "category": "C28"
+        },
+        {
+            "wepon": "L",
+            "l70": "S337",
+            "character": "Sadone",
+            "l50": "S336",
+            "category": "C37"
+        },
+        {
+            "wepon": "G",
+            "l70": "S339",
+            "character": "Sadone",
+            "l50": "S338",
+            "category": "C38"
+        },
+        {
+            "wepon": "W",
+            "l70": "S341",
+            "character": "Sadone",
+            "l50": "S340",
+            "category": "C6"
+        },
+        {
+            "wepon": "H",
+            "l70": "S343",
+            "character": "Sadone",
+            "l50": "S342",
+            "category": "C7"
+        },
+        {
+            "wepon": "S",
+            "l70": "S345",
+            "character": "Sadone",
+            "l50": "S344",
+            "category": "C11"
         }
     ]
 }
